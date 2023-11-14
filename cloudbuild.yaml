@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/git'
-    args: ['clone', 'https://github.com/gergipeter/mypage.git', '.']
+    args: ['clone', 'https://github.com/gergipeter/mypage.git', '/app']
   - name: 'gcr.io/cloud-builders/composer'
     args: ['install']
   - name: 'gcr.io/cloud-builders/gcloud'
